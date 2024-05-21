@@ -5,7 +5,7 @@ import navbar from "./components/navbar.vue";
 <template>
   <!--Screen-->
   <div
-    class="h-screen bg-purple-100 over overflow-hidden bg-center"
+    class="h-screen bg-purple-100 over overflow-hidden bg-center overflow-y-scroll"
     style="background-image: url('/src/assets/me.jpg')"
   >
     <div class="w-full flex justify-center">
