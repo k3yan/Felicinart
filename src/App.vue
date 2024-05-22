@@ -3,17 +3,23 @@ import navbar from "./components/navbar.vue";
 </script>
 
 <template>
-  <!--Screen-->
-  <div
-    class="h-screen bg-purple-100 over overflow-hidden bg-center overflow-y-scroll"
-    style="background-image: url('/src/assets/me.jpg')"
-  >
-    <div class="w-full flex justify-center">
-      <navbar />
-    </div>
-    <!--Router View-->
-    <div class="w-full mt-10">
-      <router-view />
+  <!-- Screen -->
+  <div class="relative h-screen bg-purple-100 overflow-hidden">
+    <!-- Blurred Background -->
+    <div
+      class="absolute inset-0 bg-center bg-cover filter blur-sm"
+      style="background-image: url('/src/assets/me.jpg')"
+    ></div>
+
+    <!-- Content -->
+    <div class="relative z-10 h-full w-full overflow-y-scroll">
+      <div class="w-full flex justify-center">
+        <navbar />
+      </div>
+      <!-- Router View -->
+      <div class="w-full mt-10">
+        <router-view />
+      </div>
     </div>
   </div>
 </template>

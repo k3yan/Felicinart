@@ -3,7 +3,7 @@
     <div class="mt-4">
       <!--Navbar-->
       <nav
-        class="bg-fuchsia-300 shadow-md dark:bg-purple-400 rounded-lg flex justify-center sticky top-0"
+        class="bg-fuchsia-300 shadow-md dark:bg-purple-400 rounded-lg flex justify-center"
       >
         <div
           class="container flex items-center justify-center p-5 mx-auto text-gray-600 capitalize dark:text-gray-100"
