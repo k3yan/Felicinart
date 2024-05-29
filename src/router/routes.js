@@ -3,6 +3,9 @@ import Home from '../pages/Home.vue';
 import Arts from '../pages/Arts.vue';
 import Graphic from '../pages/Graphic.vue';
 import Pricing from '../pages/Pricing.vue';
+import Character from '../pages/Character.vue';
+import Stickers from '../pages/Stickers.vue';
+import SampleArts from '../pages/SampleArts.vue';
 
 const routes = [
 {
@@ -13,7 +16,7 @@ const routes = [
 {
     name: 'Arts',
     path: '/Arts',
-    component: Arts
+    component: Arts,
 },
 {
     name: 'Graphic',
@@ -24,6 +27,21 @@ const routes = [
     name: 'Pricing',
     path: '/Pricing',
     component: Pricing
+},
+{
+    name: 'SampleArts',
+    path: '/SampleArts',
+    component: SampleArts
+},
+{
+    name: 'Character',
+    path: '/CharacterDesign',
+    component: Character
+},
+{
+    name: 'Stickers',
+    path: '/Stickers',
+    component: Stickers
 }
 ]
 

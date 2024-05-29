@@ -6,10 +6,9 @@ import navbar from "./components/navbar.vue";
   <!-- Screen -->
   <div class="relative h-screen bg-purple-100 overflow-hidden">
     <!-- Blurred Background -->
-    <div
-      class="absolute inset-0 bg-center bg-cover filter blur-sm"
-      style="background-image: url('/src/assets/me.jpg')"
-    ></div>
+    <div class="absolute inset-0 bg-center bg-cover filter blur-sm">
+      <img src="./assets/me.jpg" class="h-screen w-screen absolute" />
+    </div>
 
     <!-- Content -->
     <div class="relative z-10 h-full w-full overflow-y-scroll">
