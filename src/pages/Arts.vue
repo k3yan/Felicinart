@@ -13,7 +13,7 @@
           class="w-full h-[20rem] rounded-md object-cover"
         />
         <div class="px-1 py-4">
-          <div class="font-bold text-xl mb-2">Sample Arts</div>
+          <div class="font-bold text-3xl mb-2 font-dancing">Sample Arts</div>
           <p class="text-gray-700 text-base">
             Contains all my Arts that I created chuchc
           </p>
@@ -33,7 +33,9 @@
           class="w-full h-[20rem] rounded-md object-cover"
         />
         <div class="px-1 py-4">
-          <div class="font-bold text-xl mb-2">Character Design</div>
+          <div class="font-bold text-3xl mb-2 font-dancing">
+            Character Design
+          </div>
           <p class="text-gray-700 text-base">
             This is a simple blog card example using Tailwind CSS. You can
             replace this text with your own blog content.
@@ -47,12 +49,12 @@
       </div>
       <div class="bg-fuchsia-200 rounded-lg border p-4 dark:bg-purple-300">
         <img
-          src="https://placehold.co/300x200/d1d4ff/352cb5.png"
+          src="../assets/Stickermakima.png"
           alt="Placeholder Image"
           class="w-full h-[20rem] rounded-md object-cover"
         />
         <div class="px-1 py-4">
-          <div class="font-bold text-xl mb-2">Stickers</div>
+          <div class="font-bold text-3xl mb-2 font-dancing">Stickers</div>
           <p class="text-gray-700 text-base">
             This is a simple blog card example using Tailwind CSS. You can
             replace this text with your own blog content.

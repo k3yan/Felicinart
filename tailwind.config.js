@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'dancing': ['Dancing Script', 'cursive'],
+      },
       screens: {
         'tablet': '640px',
         // => @media (min-width: 640px) { ... }

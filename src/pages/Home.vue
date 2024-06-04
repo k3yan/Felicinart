@@ -11,11 +11,11 @@
         class="w-64 h-64 mx-auto rounded-lg mb-4 shadow-lg shadow-teal-50"
       />
       <!-- Song Title -->
-      <h2 class="text-md font-semibold text-center italic font-serif">
+      <h2 class="text-2xl font-semibold text-center font-dancing">
         What if mag buy kayo?
       </h2>
       <!-- Artist Name -->
-      <p class="text-gray-600 text-sm text-center">Felicinart ₍ᐢ..ᐢ₎♡ -</p>
+      <p class="text-gray-800 text-sm text-center">Felicinart ₍ᐢ..ᐢ₎♡ -</p>
       <!-- Music Controls -->
       <div class="mt-6 flex justify-center items-center">
         <button
@@ -112,7 +112,7 @@
         <div class="bg-teal-500 h-2 rounded-full w-1/2"></div>
       </div>
       <!-- Time Information -->
-      <div class="flex justify-between mt-2 text-sm text-gray-600">
+      <div class="flex justify-between mt-2 text-sm text-gray-600 font-dancing">
         <span>1:57</span>
         <span>3:53</span>
       </div>

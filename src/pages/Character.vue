@@ -4,7 +4,7 @@
   >
     <div class="mx-auto max-w-screen-xl px-4 w-full">
       <h2
-        class="mb-4 font-bold text-2xl text-gray-900 flex justify-center italic"
+        class="mb-10 font-bold text-6xl text-fuchsia-200 flex justify-center italic font-dancing"
       >
         Character Designs
       </h2>
