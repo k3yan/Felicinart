@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center">
+  <div class="flex justify-center mb-16">
     <!--background design-->
     <div
       class="bg-fuchsia-200 p-8 rounded-lg shadow-md w-80 dark:bg-purple-400"

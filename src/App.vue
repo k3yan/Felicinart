@@ -1,5 +1,6 @@
 <script setup>
 import navbar from "./components/navbar.vue";
+import foooter from "./components/footer.vue";
 </script>
 
 <template>
@@ -18,6 +19,9 @@ import navbar from "./components/navbar.vue";
       <!-- Router View -->
       <div class="w-full mt-10">
         <router-view />
+      </div>
+      <div class="">
+        <foooter />
       </div>
     </div>
   </div>
